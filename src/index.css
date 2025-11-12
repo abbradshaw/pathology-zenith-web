@@ -43,7 +43,7 @@ All colors MUST be HSL.
     --hero-gradient-end: 185 64% 35%;
     
     --heading-light-bg: 185 86% 22%;
-    --heading-dark-bg: 184 16% 74%;
+    --heading-dark-bg: 184 14% 74%;
 
     --radius: 0.75rem;
     
@@ -128,6 +128,12 @@ All colors MUST be HSL.
   .bg-black h4,
   .bg-black h5,
   .bg-black h6,
+  .bg-hero h1,
+  .bg-hero h2,
+  .bg-hero h3,
+  .bg-hero h4,
+  .bg-hero h5,
+  .bg-hero h6,
   .hero-gradient-stripe h1,
   .hero-gradient-stripe h2,
   .hero-gradient-stripe h3,
