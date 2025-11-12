@@ -35,7 +35,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#hero" onClick={(e) => { e.preventDefault(); scrollToSection("#hero"); }} className="flex items-center">
-            <img src={logo} alt="Pathology Solutions" className="h-12 w-auto" />
+            <img src={logo} alt="Pathology Solutions" className="h-[57.6px] w-auto" />
           </a>
 
           {/* Desktop Navigation */}
@@ -52,7 +52,7 @@ const Header = () => {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger>Services</NavigationMenuTrigger>
+                  <NavigationMenuTrigger className="h-10 text-base font-medium">Services</NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-1 bg-popover">
                       {serviceItems.map((item) => (
