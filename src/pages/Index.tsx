@@ -3,102 +3,73 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import ServiceCard from "@/components/ServiceCard";
 import ContactForm from "@/components/ContactForm";
 import Header from "@/components/Header";
-import { 
-  Microscope, 
-  Award, 
-  Users, 
-  Cpu, 
-  TrendingUp,
-  Mail,
-  Phone,
-  MapPin
-} from "lucide-react";
-
+import { Microscope, Award, Users, Cpu, TrendingUp, Mail, Phone, MapPin } from "lucide-react";
 const Index = () => {
-  const services = [
-    {
-      icon: TrendingUp,
-      title: "Laboratory Workflow Optimization",
-      description: "Streamline your lab operations with proven methodologies that enhance efficiency, reduce turnaround times, and improve patient outcomes."
-    },
-    {
-      icon: Award,
-      title: "Quality Assurance & Accreditation",
-      description: "Expert guidance through accreditation processes including CAP, CLIA, and ISO standards. Ensure compliance and maintain excellence."
-    },
-    {
-      icon: Users,
-      title: "Staff Training & Development",
-      description: "Comprehensive training programs designed to elevate your team's skills and ensure consistent, high-quality performance."
-    },
-    {
-      icon: Cpu,
-      title: "Technology Integration",
-      description: "Seamlessly integrate cutting-edge laboratory information systems and automation solutions to modernize your operations."
-    },
-    {
-      icon: Microscope,
-      title: "Process Improvement Consulting",
-      description: "Data-driven analysis and strategic recommendations to optimize every aspect of your laboratory's performance."
-    }
-  ];
-
-  const faqs = [
-    {
-      question: "What is your consultation process?",
-      answer: "Our consultation begins with a comprehensive assessment of your laboratory's current operations, workflows, and challenges. We then develop a customized action plan with clear milestones and deliverables, followed by hands-on implementation support and ongoing monitoring."
-    },
-    {
-      question: "How long does it take to see improvements?",
-      answer: "While initial improvements can often be observed within 4-6 weeks, comprehensive transformation typically occurs over 3-6 months. The timeline varies based on the scope of changes and your laboratory's specific needs."
-    },
-    {
-      question: "What are your pricing and engagement models?",
-      answer: "We offer flexible engagement models including project-based consulting, monthly retainers, and hourly consulting. Pricing is customized based on your laboratory's size, scope of work, and specific requirements. Contact us for a detailed proposal."
-    },
-    {
-      question: "Do you provide accreditation support?",
-      answer: "Yes, we have extensive experience supporting laboratories through various accreditation processes including CAP, CLIA, ISO 15189, and other regulatory requirements. We guide you through documentation, process implementation, and preparation for inspections."
-    },
-    {
-      question: "What technology solutions do you recommend?",
-      answer: "Our recommendations are tailored to your specific needs, but we commonly work with leading LIS systems, middleware solutions, and automation platforms. We help you select, implement, and optimize technologies that align with your goals and budget."
-    }
-  ];
-
-  return (
-    <div className="min-h-screen">
+  const services = [{
+    icon: TrendingUp,
+    title: "Laboratory Workflow Optimization",
+    description: "Streamline your lab operations with proven methodologies that enhance efficiency, reduce turnaround times, and improve patient outcomes."
+  }, {
+    icon: Award,
+    title: "Quality Assurance & Accreditation",
+    description: "Expert guidance through accreditation processes including CAP, CLIA, and ISO standards. Ensure compliance and maintain excellence."
+  }, {
+    icon: Users,
+    title: "Staff Training & Development",
+    description: "Comprehensive training programs designed to elevate your team's skills and ensure consistent, high-quality performance."
+  }, {
+    icon: Cpu,
+    title: "Technology Integration",
+    description: "Seamlessly integrate cutting-edge laboratory information systems and automation solutions to modernize your operations."
+  }, {
+    icon: Microscope,
+    title: "Process Improvement Consulting",
+    description: "Data-driven analysis and strategic recommendations to optimize every aspect of your laboratory's performance."
+  }];
+  const faqs = [{
+    question: "What is your consultation process?",
+    answer: "Our consultation begins with a comprehensive assessment of your laboratory's current operations, workflows, and challenges. We then develop a customized action plan with clear milestones and deliverables, followed by hands-on implementation support and ongoing monitoring."
+  }, {
+    question: "How long does it take to see improvements?",
+    answer: "While initial improvements can often be observed within 4-6 weeks, comprehensive transformation typically occurs over 3-6 months. The timeline varies based on the scope of changes and your laboratory's specific needs."
+  }, {
+    question: "What are your pricing and engagement models?",
+    answer: "We offer flexible engagement models including project-based consulting, monthly retainers, and hourly consulting. Pricing is customized based on your laboratory's size, scope of work, and specific requirements. Contact us for a detailed proposal."
+  }, {
+    question: "Do you provide accreditation support?",
+    answer: "Yes, we have extensive experience supporting laboratories through various accreditation processes including CAP, CLIA, ISO 15189, and other regulatory requirements. We guide you through documentation, process implementation, and preparation for inspections."
+  }, {
+    question: "What technology solutions do you recommend?",
+    answer: "Our recommendations are tailored to your specific needs, but we commonly work with leading LIS systems, middleware solutions, and automation platforms. We help you select, implement, and optimize technologies that align with your goals and budget."
+  }];
+  return <div className="min-h-screen">
       <Header />
       
       {/* Hero Section */}
-      <section id="hero" className="relative overflow-hidden bg-hero text-white" style={{ minHeight: "65vh" }}>
+      <section id="hero" className="relative overflow-hidden bg-hero text-white" style={{
+      minHeight: "65vh"
+    }}>
         {/* Diagonal Gradient Stripes */}
-        <div 
-          className="hero-gradient-stripe absolute opacity-80"
-          style={{
-            width: "100px",
-            height: "150%",
-            top: "-50%",
-            left: "-5%",
-            transform: "rotate(-135deg)"
-          }}
-        />
-        <div 
-          className="hero-gradient-stripe absolute opacity-80"
-          style={{
-            width: "100px",
-            height: "150%",
-            bottom: "-50%",
-            right: "-5%",
-            transform: "rotate(-135deg)"
-          }}
-        />
+        <div className="hero-gradient-stripe absolute opacity-80" style={{
+        width: "100px",
+        height: "150%",
+        top: "-50%",
+        left: "-5%",
+        transform: "rotate(-135deg)"
+      }} />
+        <div className="hero-gradient-stripe absolute opacity-80" style={{
+        width: "100px",
+        height: "150%",
+        bottom: "-50%",
+        right: "-5%",
+        transform: "rotate(-135deg)"
+      }} />
         
         <div className="container relative z-10 mx-auto px-4 py-12 md:py-20">
           <div className="grid gap-8 md:grid-cols-2 md:items-center">
             {/* Left Column - Content */}
             <div className="text-center md:text-left">
-              <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
+              <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl text-[#b5c4c5] lg:text-6xl">
                 Transforming Pathology Lab Performance
               </h1>
               <p className="mb-8 text-lg text-gray-300 md:text-xl">
@@ -106,19 +77,14 @@ const Index = () => {
                 and elevate your team's capabilities
               </p>
               <div className="mb-8 flex flex-col items-center justify-center gap-4 sm:flex-row md:justify-start">
-                <Button 
-                  size="lg" 
-                  className="bg-primary text-primary-foreground hover:bg-primary-dark"
-                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                >
+                <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary-dark" onClick={() => document.getElementById('contact')?.scrollIntoView({
+                behavior: 'smooth'
+              })}>
                   Schedule Consultation
                 </Button>
-                <Button 
-                  size="lg" 
-                  variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-hero"
-                  onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-                >
+                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-hero" onClick={() => document.getElementById('services')?.scrollIntoView({
+                behavior: 'smooth'
+              })}>
                   Explore Services
                 </Button>
               </div>
@@ -130,11 +96,7 @@ const Index = () => {
             
             {/* Right Column - Image */}
             <div className="relative">
-              <img 
-                src={new URL('../assets/pathology-lab.jpg', import.meta.url).href}
-                alt="Modern pathology laboratory with advanced equipment and professional environment"
-                className="w-full h-auto rounded-lg shadow-2xl"
-              />
+              <img src={new URL('../assets/pathology-lab.jpg', import.meta.url).href} alt="Modern pathology laboratory with advanced equipment and professional environment" className="w-full h-auto rounded-lg shadow-2xl" />
             </div>
           </div>
         </div>
@@ -152,9 +114,7 @@ const Index = () => {
           </div>
           
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {services.map((service, index) => (
-              <ServiceCard key={index} {...service} />
-            ))}
+            {services.map((service, index) => <ServiceCard key={index} {...service} />)}
           </div>
         </div>
       </section>
@@ -205,16 +165,14 @@ const Index = () => {
               Frequently Asked Questions
             </h2>
             <Accordion type="single" collapsible className="w-full">
-              {faqs.map((faq, index) => (
-                <AccordionItem key={index} value={`item-${index}`}>
+              {faqs.map((faq, index) => <AccordionItem key={index} value={`item-${index}`}>
                   <AccordionTrigger className="text-left text-lg font-medium">
                     {faq.question}
                   </AccordionTrigger>
                   <AccordionContent className="text-base leading-relaxed text-muted-foreground">
                     {faq.answer}
                   </AccordionContent>
-                </AccordionItem>
-              ))}
+                </AccordionItem>)}
             </Accordion>
           </div>
         </div>
@@ -299,8 +257,6 @@ const Index = () => {
           </p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
