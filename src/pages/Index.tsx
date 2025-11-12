@@ -94,36 +94,48 @@ const Index = () => {
           }}
         />
         
-        <div className="container relative z-10 mx-auto px-4 py-24 md:py-32">
-          <div className="mx-auto max-w-4xl text-center">
-            <h1 className="mb-6 text-4xl font-bold leading-tight md:text-6xl">
-              Transforming Pathology Lab Performance
-            </h1>
-            <p className="mb-8 text-xl text-gray-300 md:text-2xl">
-              Expert consulting to optimize laboratory operations, ensure quality standards, 
-              and elevate your team's capabilities
-            </p>
-            <div className="mb-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Button 
-                size="lg" 
-                className="bg-primary text-primary-foreground hover:bg-primary-dark"
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-              >
-                Schedule Consultation
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-hero"
-                onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-              >
-                Explore Services
-              </Button>
+        <div className="container relative z-10 mx-auto px-4 py-12 md:py-20">
+          <div className="grid gap-8 md:grid-cols-2 md:items-center">
+            {/* Left Column - Content */}
+            <div className="text-center md:text-left">
+              <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
+                Transforming Pathology Lab Performance
+              </h1>
+              <p className="mb-8 text-lg text-gray-300 md:text-xl">
+                Expert consulting to optimize laboratory operations, ensure quality standards, 
+                and elevate your team's capabilities
+              </p>
+              <div className="mb-8 flex flex-col items-center justify-center gap-4 sm:flex-row md:justify-start">
+                <Button 
+                  size="lg" 
+                  className="bg-primary text-primary-foreground hover:bg-primary-dark"
+                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                >
+                  Schedule Consultation
+                </Button>
+                <Button 
+                  size="lg" 
+                  variant="outline"
+                  className="border-white text-white hover:bg-white hover:text-hero"
+                  onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+                >
+                  Explore Services
+                </Button>
+              </div>
+              <p className="text-sm text-gray-400">
+                Trusted by leading pathology laboratories to achieve accreditation excellence 
+                and operational efficiency
+              </p>
             </div>
-            <p className="text-sm text-gray-400 md:text-base">
-              Trusted by leading pathology laboratories to achieve accreditation excellence 
-              and operational efficiency
-            </p>
+            
+            {/* Right Column - Image */}
+            <div className="relative">
+              <img 
+                src={new URL('../assets/pathology-lab.jpg', import.meta.url).href}
+                alt="Modern pathology laboratory with advanced equipment and professional environment"
+                className="w-full h-auto rounded-lg shadow-2xl"
+              />
+            </div>
           </div>
         </div>
       </section>
