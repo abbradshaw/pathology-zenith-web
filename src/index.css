@@ -42,7 +42,8 @@ All colors MUST be HSL.
     --hero-gradient-start: 185 64% 43%;
     --hero-gradient-end: 185 64% 35%;
     
-    --heading-light-bg: 136 66% 40%;
+    --heading-light-bg: 185 86% 22%;
+    --heading-dark-bg: 185 82% 35%;
 
     --radius: 0.75rem;
     
@@ -118,6 +119,22 @@ All colors MUST be HSL.
   .bg-background h5,
   .bg-background h6 {
     color: hsl(var(--heading-light-bg));
+  }
+  
+  /* Headings on dark backgrounds */
+  .bg-black h1,
+  .bg-black h2,
+  .bg-black h3,
+  .bg-black h4,
+  .bg-black h5,
+  .bg-black h6,
+  .hero-gradient-stripe h1,
+  .hero-gradient-stripe h2,
+  .hero-gradient-stripe h3,
+  .hero-gradient-stripe h4,
+  .hero-gradient-stripe h5,
+  .hero-gradient-stripe h6 {
+    color: hsl(var(--heading-dark-bg));
   }
 }
 
