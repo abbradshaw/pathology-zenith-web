@@ -74,7 +74,7 @@ const Index = () => {
       <section id="hero" className="relative overflow-hidden bg-hero text-white" style={{ minHeight: "65vh" }}>
         {/* Diagonal Gradient Stripes */}
         <div 
-          className="hero-gradient-stripe absolute opacity-20"
+          className="hero-gradient-stripe absolute opacity-80"
           style={{
             width: "100px",
             height: "150%",
@@ -84,7 +84,7 @@ const Index = () => {
           }}
         />
         <div 
-          className="hero-gradient-stripe absolute opacity-20"
+          className="hero-gradient-stripe absolute opacity-80"
           style={{
             width: "100px",
             height: "150%",
