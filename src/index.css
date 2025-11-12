@@ -126,3 +126,16 @@ All colors MUST be HSL.
     background: linear-gradient(135deg, hsl(var(--hero-gradient-start)) 0%, hsl(var(--hero-gradient-end)) 100%);
   }
 }
+
+/* Ensure dropdown menus are not transparent */
+[data-radix-popper-content-wrapper] {
+  z-index: 50 !important;
+}
+
+/* Navigation menu dropdown styling */
+nav [role="menu"],
+nav [data-radix-navigation-menu-viewport] {
+  background: hsl(var(--popover)) !important;
+  border: 1px solid hsl(var(--border));
+  z-index: 50;
+}

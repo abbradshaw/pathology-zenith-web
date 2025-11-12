@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import ServiceCard from "@/components/ServiceCard";
 import ContactForm from "@/components/ContactForm";
+import Header from "@/components/Header";
 import { 
   Microscope, 
   Award, 
@@ -67,8 +68,10 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
+      <Header />
+      
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-hero text-white" style={{ minHeight: "65vh" }}>
+      <section id="hero" className="relative overflow-hidden bg-hero text-white" style={{ minHeight: "65vh" }}>
         {/* Diagonal Gradient Stripes */}
         <div 
           className="hero-gradient-stripe absolute opacity-20"
