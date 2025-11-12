@@ -51,6 +51,12 @@ export default {
         hero: {
           DEFAULT: "hsl(var(--hero-bg))",
         },
+        heading: {
+          light: "hsl(var(--heading-light-bg))",
+        },
+      },
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",

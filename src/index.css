@@ -41,6 +41,8 @@ All colors MUST be HSL.
     --hero-bg: 0 0% 0%;
     --hero-gradient-start: 174 72% 56%;
     --hero-gradient-end: 174 72% 46%;
+    
+    --heading-light-bg: 136 66% 40%;
 
     --radius: 0.75rem;
     
@@ -89,10 +91,33 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
   }
   
   html {
     scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+  
+  /* Headings on light backgrounds */
+  section:not(.dark) h1,
+  section:not(.dark) h2,
+  section:not(.dark) h3,
+  section:not(.dark) h4,
+  section:not(.dark) h5,
+  section:not(.dark) h6,
+  .bg-background h1:not(.hero-title),
+  .bg-background h2,
+  .bg-background h3,
+  .bg-background h4,
+  .bg-background h5,
+  .bg-background h6 {
+    color: hsl(var(--heading-light-bg));
   }
 }
 
