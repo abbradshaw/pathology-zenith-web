@@ -3,7 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import ServiceCard from "@/components/ServiceCard";
 import ContactForm from "@/components/ContactForm";
 import Header from "@/components/Header";
-import { Microscope, Award, Users, Cpu, TrendingUp, Mail, Phone, MapPin } from "lucide-react";
+import { Microscope, Award, Users, Cpu, TrendingUp, Mail, Phone, MapPin, ShieldCheck, Settings } from "lucide-react";
 const Index = () => {
   const services = [{
     icon: TrendingUp,
@@ -25,6 +25,14 @@ const Index = () => {
     icon: Microscope,
     title: "Process Improvement Consulting",
     description: "Data-driven analysis and strategic recommendations to optimize every aspect of your laboratory's performance."
+  }, {
+    icon: ShieldCheck,
+    title: "Laboratory Safety & Compliance",
+    description: "Comprehensive safety program development and regulatory compliance guidance to protect your staff and patients while meeting all industry standards."
+  }, {
+    icon: Settings,
+    title: "Equipment Management & Optimization",
+    description: "Strategic equipment planning, maintenance programs, and utilization analysis to maximize ROI and ensure reliable laboratory operations."
   }];
   const faqs = [{
     question: "What is your consultation process?",
