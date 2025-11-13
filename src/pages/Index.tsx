@@ -170,19 +170,10 @@ pathology teams.</p>
 
 
               </p>
-                <div className="mt-8 grid gap-6 md:grid-cols-3">
-                  <div className="rounded-lg bg-background p-6 text-center shadow-sm">
-                    <div className="mb-2 text-3xl font-bold text-primary">15+</div>
-                    <div className="text-sm text-muted-foreground">Years Experience</div>
-                  </div>
-                  <div className="rounded-lg bg-background p-6 text-center shadow-sm">
-                    <div className="mb-2 text-3xl font-bold text-primary">50+</div>
-                    <div className="text-sm text-muted-foreground">Labs Consulted</div>
-                  </div>
-                  <div className="rounded-lg bg-background p-6 text-center shadow-sm">
-                    <div className="mb-2 text-3xl font-bold text-primary">100%</div>
-                    <div className="text-sm text-muted-foreground">Accreditation Success</div>
-                  </div>
+                <div className="mt-8">
+                  <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
+                    Read More About Our Expertise
+                  </Button>
                 </div>
               </div>
               
