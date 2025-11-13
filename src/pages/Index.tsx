@@ -134,17 +134,45 @@ const Index = () => {
             <div className="grid gap-12 md:grid-cols-2 md:items-start">
               {/* Left Column - Text Content */}
               <div className="space-y-6 text-lg leading-relaxed">
-                <p>
-                  With over 15 years of experience in pathology laboratory management and quality 
-                  systems, I provide strategic consulting to help laboratories achieve operational 
-                  excellence and regulatory compliance.
-                </p>
-                <p>
-                  My expertise spans all aspects of laboratory operations, from workflow optimization 
-                  and staff development to technology implementation and accreditation preparation. 
-                  I've successfully guided numerous laboratories through CAP, CLIA, and ISO 
-                  accreditation processes.
-                </p>
+                <p>Pathology Solutions’ CEO and founder, Danielle Lee Davis, has extensive knowledge and
+experience with process and procedure writing, standardization, training, and leading successful
+pathology teams.</p>
+                <p>She has over 30 years of grossing and histology experience as a Pathologists’ Assistant, Pathologist Scientist, Medical Laboratory Technologist, Laboratory Histotechnician, and Medical Laboratory Assistant.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </p>
                 <div className="mt-8 grid gap-6 md:grid-cols-3">
                   <div className="rounded-lg bg-background p-6 text-center shadow-sm">
                     <div className="mb-2 text-3xl font-bold text-primary">15+</div>
@@ -163,11 +191,7 @@ const Index = () => {
               
               {/* Right Column - Image */}
               <div className="flex flex-col items-center">
-                <img 
-                  src={new URL('../assets/danielle-lee-davis.jpeg', import.meta.url).href} 
-                  alt="Danielle Lee Davis, CEO and pathology laboratory consulting expert" 
-                  className="w-full max-w-md rounded-lg shadow-lg"
-                />
+                <img src={new URL('../assets/danielle-lee-davis.jpeg', import.meta.url).href} alt="Danielle Lee Davis, CEO and pathology laboratory consulting expert" className="w-full max-w-md rounded-lg shadow-lg" />
                 <p className="mt-4 text-center text-lg font-medium">
                   Danielle Lee Davis, CEO
                 </p>
