@@ -77,11 +77,11 @@ const Index = () => {
                 and elevate your team's capabilities
               </p>
               <div className="mb-8 flex flex-col items-center justify-center gap-4 sm:flex-row md:justify-start">
-                <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary-dark" onClick={() => document.getElementById('contact')?.scrollIntoView({
+              <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary-dark" onClick={() => document.getElementById('contact')?.scrollIntoView({
                 behavior: 'smooth'
               })}>
-                  Schedule Consultation
-                </Button>
+                Get Started
+              </Button>
                 <Button size="lg" variant="outline" onClick={() => document.getElementById('services')?.scrollIntoView({
                 behavior: 'smooth'
               })} className="border-white hover:bg-white text-slate-900">
