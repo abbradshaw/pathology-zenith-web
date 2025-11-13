@@ -111,11 +111,8 @@ const Index = () => {
       <section id="services" className="bg-background py-20 md:py-28">
         <div className="container mx-auto px-4">
           <div className="mb-16 text-center">
-            <h2 className="mb-4 text-3xl font-bold md:text-4xl">Comprehensive Laboratory Solutions</h2>
-            <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-              Expert consulting services designed to transform your laboratory's performance, 
-              compliance, and operational excellence
-            </p>
+            <h2 className="mb-4 text-3xl font-bold md:text-4xl">Services Tailored to Every Site's Specific Needs</h2>
+            <p className="mx-auto max-w-2xl text-lg text-muted-foreground">We know that every gross room exhibits unique challenges and dynamics that must be honouored during any change process</p>
           </div>
           
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
