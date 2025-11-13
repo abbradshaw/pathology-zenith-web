@@ -7,7 +7,7 @@ import { Microscope, Award, Users, Cpu, TrendingUp, Mail, Phone, MapPin, ShieldC
 const Index = () => {
   const services = [{
     icon: TrendingUp,
-    title: "Laboratory Workflow Optimization",
+    title: "Gap Analysis and Solutions Proposal",
     description: "Streamline your lab operations with proven methodologies that enhance efficiency, reduce turnaround times, and improve patient outcomes."
   }, {
     icon: Award,
