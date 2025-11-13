@@ -127,35 +127,50 @@ const Index = () => {
       {/* About Section */}
       <section id="about" className="bg-secondary py-20 md:py-28">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-4xl">
-            <h2 className="mb-8 text-center text-3xl font-bold md:text-4xl">
+          <div className="mx-auto max-w-6xl">
+            <h2 className="mb-12 text-center text-3xl font-bold md:text-4xl">
               Expert Pathology Consulting
             </h2>
-            <div className="space-y-6 text-lg leading-relaxed">
-              <p>
-                With over 15 years of experience in pathology laboratory management and quality 
-                systems, I provide strategic consulting to help laboratories achieve operational 
-                excellence and regulatory compliance.
-              </p>
-              <p>
-                My expertise spans all aspects of laboratory operations, from workflow optimization 
-                and staff development to technology implementation and accreditation preparation. 
-                I've successfully guided numerous laboratories through CAP, CLIA, and ISO 
-                accreditation processes.
-              </p>
-              <div className="mt-8 grid gap-6 md:grid-cols-3">
-                <div className="rounded-lg bg-background p-6 text-center shadow-sm">
-                  <div className="mb-2 text-3xl font-bold text-primary">15+</div>
-                  <div className="text-sm text-muted-foreground">Years Experience</div>
+            <div className="grid gap-12 md:grid-cols-2 md:items-start">
+              {/* Left Column - Text Content */}
+              <div className="space-y-6 text-lg leading-relaxed">
+                <p>
+                  With over 15 years of experience in pathology laboratory management and quality 
+                  systems, I provide strategic consulting to help laboratories achieve operational 
+                  excellence and regulatory compliance.
+                </p>
+                <p>
+                  My expertise spans all aspects of laboratory operations, from workflow optimization 
+                  and staff development to technology implementation and accreditation preparation. 
+                  I've successfully guided numerous laboratories through CAP, CLIA, and ISO 
+                  accreditation processes.
+                </p>
+                <div className="mt-8 grid gap-6 md:grid-cols-3">
+                  <div className="rounded-lg bg-background p-6 text-center shadow-sm">
+                    <div className="mb-2 text-3xl font-bold text-primary">15+</div>
+                    <div className="text-sm text-muted-foreground">Years Experience</div>
+                  </div>
+                  <div className="rounded-lg bg-background p-6 text-center shadow-sm">
+                    <div className="mb-2 text-3xl font-bold text-primary">50+</div>
+                    <div className="text-sm text-muted-foreground">Labs Consulted</div>
+                  </div>
+                  <div className="rounded-lg bg-background p-6 text-center shadow-sm">
+                    <div className="mb-2 text-3xl font-bold text-primary">100%</div>
+                    <div className="text-sm text-muted-foreground">Accreditation Success</div>
+                  </div>
                 </div>
-                <div className="rounded-lg bg-background p-6 text-center shadow-sm">
-                  <div className="mb-2 text-3xl font-bold text-primary">50+</div>
-                  <div className="text-sm text-muted-foreground">Labs Consulted</div>
-                </div>
-                <div className="rounded-lg bg-background p-6 text-center shadow-sm">
-                  <div className="mb-2 text-3xl font-bold text-primary">100%</div>
-                  <div className="text-sm text-muted-foreground">Accreditation Success</div>
-                </div>
+              </div>
+              
+              {/* Right Column - Image */}
+              <div className="flex flex-col items-center">
+                <img 
+                  src={new URL('../assets/danielle-lee-davis.jpeg', import.meta.url).href} 
+                  alt="Danielle Lee Davis, CEO and pathology laboratory consulting expert" 
+                  className="w-full max-w-md rounded-lg shadow-lg"
+                />
+                <p className="mt-4 text-center text-lg font-medium">
+                  Danielle Lee Davis, CEO
+                </p>
               </div>
             </div>
           </div>
