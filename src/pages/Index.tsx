@@ -11,27 +11,27 @@ const Index = () => {
     description: "Streamline your lab operations with proven methodologies that enhance efficiency, reduce turnaround times, and improve patient outcomes."
   }, {
     icon: Award,
-    title: "Quality Assurance & Accreditation",
+    title: "Workflow & Process Optimization",
     description: "Expert guidance through accreditation processes including CAP, CLIA, and ISO standards. Ensure compliance and maintain excellence."
   }, {
     icon: Users,
-    title: "Staff Training & Development",
+    title: "Comprehensive Grossing Staff Training",
     description: "Comprehensive training programs designed to elevate your team's skills and ensure consistent, high-quality performance."
   }, {
     icon: Cpu,
-    title: "Technology Integration",
+    title: "SOP Development & Continuous Improvement",
     description: "Seamlessly integrate cutting-edge laboratory information systems and automation solutions to modernize your operations."
   }, {
     icon: Microscope,
-    title: "Process Improvement Consulting",
+    title: "Provision of Casual Pathologists' Assistants",
     description: "Data-driven analysis and strategic recommendations to optimize every aspect of your laboratory's performance."
   }, {
     icon: ShieldCheck,
-    title: "Laboratory Safety & Compliance",
+    title: "Expertise in Standardization of Practice",
     description: "Comprehensive safety program development and regulatory compliance guidance to protect your staff and patients while meeting all industry standards."
   }, {
     icon: Settings,
-    title: "Equipment Management & Optimization",
+    title: "Strategies to Enhance Staff Engagement",
     description: "Strategic equipment planning, maintenance programs, and utilization analysis to maximize ROI and ensure reliable laboratory operations."
   }];
   const faqs = [{
