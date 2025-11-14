@@ -5,11 +5,13 @@ interface ServiceCardProps {
   icon: LucideIcon;
   title: string;
   description: string;
+  className?: string;
+  style?: React.CSSProperties;
 }
 
-const ServiceCard = ({ icon: Icon, title, description }: ServiceCardProps) => {
+const ServiceCard = ({ icon: Icon, title, description, className = "", style }: ServiceCardProps) => {
   return (
-    <Card className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+    <Card className={`transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ${className}`} style={style}>
       <CardHeader>
         <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
           <Icon className="h-6 w-6 text-primary" />
