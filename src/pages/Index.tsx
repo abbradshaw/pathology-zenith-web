@@ -166,14 +166,14 @@ const Index = () => {
                 </Button>
               </div>
               <div
-                className="flex items-start gap-3 p-3 rounded-lg bg-primary/10 border-l-4 border-primary max-w-lg mx-auto md:mx-0 animate-fade-in"
+                className="flex items-start gap-3 p-3 rounded-lg bg-primary/20 border-l-4 border-primary max-w-lg mx-auto md:mx-0 animate-fade-in"
                 style={{
                   animationDelay: "0.6s",
                   animationFillMode: "both",
                 }}
               >
                 <ShieldCheck className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                <p className="text-foreground font-medium text-lg">
+                <p className="text-white font-medium text-lg">
                   Trusted by pathology laboratories world-wide.
                 </p>
               </div>
