@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import ServiceCard from "@/components/ServiceCard";
 import ContactForm from "@/components/ContactForm";
 import Header from "@/components/Header";
@@ -138,47 +139,102 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {services.map((service, index) => <ServiceCard key={index} {...service} className="animate-fade-in" style={{
-            animationDelay: `${0.1 * (index + 1)}s`,
-            animationFillMode: "both"
-          }} />)}
+          <Tabs defaultValue="health-authorities" className="w-full">
+            <TabsList className="grid w-full max-w-md mx-auto mb-12 grid-cols-2 bg-primary/10">
+              <TabsTrigger value="health-authorities" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
+                For Health Authorities
+              </TabsTrigger>
+              <TabsTrigger value="industry-partners" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
+                For Industry Partners
+              </TabsTrigger>
+            </TabsList>
 
-            {/* CTA Card spanning 8th and 9th positions */}
-            <div className="md:col-span-2 rounded-lg bg-black p-8 flex flex-col justify-center animate-fade-in relative overflow-hidden" style={{
-            animationDelay: "0.8s",
-            animationFillMode: "both"
-          }}>
-              {/* Diagonal Gradient Stripes */}
-              <div className="hero-gradient-stripe absolute opacity-60" style={{
-              width: "50px",
-              height: "150%",
-              top: "-48%",
-              left: "-4%",
-              transform: "rotate(-135deg)"
-            }} />
-              <div className="hero-gradient-stripe absolute opacity-60" style={{
-              width: "50px",
-              height: "150%",
-              bottom: "-48%",
-              right: "-4%",
-              transform: "rotate(-135deg)"
-            }} />
+            <TabsContent value="health-authorities">
+              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                {services.map((service, index) => <ServiceCard key={index} {...service} className="animate-fade-in" style={{
+                animationDelay: `${0.1 * (index + 1)}s`,
+                animationFillMode: "both"
+              }} />)}
 
-              <h3 className="mb-3 font-semibold text-center relative z-10 !text-[#b5c4c5] text-3xl">
-                Explore All Our Services
-              </h3>
-              <p className="mb-6 text-center relative z-10 text-gray-300 text-balance text-lg">
-                Discover detailed information about each service and how we can help transform your laboratory
-                operations.
-              </p>
-              <div className="flex justify-center relative z-10">
-                <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90" onClick={() => navigate("/services")}>
-                  View All Services
-                </Button>
+                {/* CTA Card spanning 8th and 9th positions */}
+                <div className="md:col-span-2 rounded-lg bg-black p-8 flex flex-col justify-center animate-fade-in relative overflow-hidden" style={{
+                animationDelay: "0.8s",
+                animationFillMode: "both"
+              }}>
+                  {/* Diagonal Gradient Stripes */}
+                  <div className="hero-gradient-stripe absolute opacity-60" style={{
+                  width: "50px",
+                  height: "150%",
+                  top: "-48%",
+                  left: "-4%",
+                  transform: "rotate(-135deg)"
+                }} />
+                  <div className="hero-gradient-stripe absolute opacity-60" style={{
+                  width: "50px",
+                  height: "150%",
+                  bottom: "-48%",
+                  right: "-4%",
+                  transform: "rotate(-135deg)"
+                }} />
+
+                  <h3 className="mb-3 font-semibold text-center relative z-10 !text-[#b5c4c5] text-3xl">
+                    Explore All Our Services
+                  </h3>
+                  <p className="mb-6 text-center relative z-10 text-gray-300 text-balance text-lg">
+                    Explore how we understand your unique challenges and provide tailored solutions to transform your laboratory operations.
+                  </p>
+                  <div className="flex justify-center relative z-10">
+                    <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90" onClick={() => navigate("/services")}>
+                      View All Services
+                    </Button>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+            </TabsContent>
+
+            <TabsContent value="industry-partners">
+              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                {services.map((service, index) => <ServiceCard key={index} {...service} className="animate-fade-in" style={{
+                animationDelay: `${0.1 * (index + 1)}s`,
+                animationFillMode: "both"
+              }} />)}
+
+                {/* CTA Card spanning 8th and 9th positions */}
+                <div className="md:col-span-2 rounded-lg bg-black p-8 flex flex-col justify-center animate-fade-in relative overflow-hidden" style={{
+                animationDelay: "0.8s",
+                animationFillMode: "both"
+              }}>
+                  {/* Diagonal Gradient Stripes */}
+                  <div className="hero-gradient-stripe absolute opacity-60" style={{
+                  width: "50px",
+                  height: "150%",
+                  top: "-48%",
+                  left: "-4%",
+                  transform: "rotate(-135deg)"
+                }} />
+                  <div className="hero-gradient-stripe absolute opacity-60" style={{
+                  width: "50px",
+                  height: "150%",
+                  bottom: "-48%",
+                  right: "-4%",
+                  transform: "rotate(-135deg)"
+                }} />
+
+                  <h3 className="mb-3 font-semibold text-center relative z-10 !text-[#b5c4c5] text-3xl">
+                    Explore All Our Services
+                  </h3>
+                  <p className="mb-6 text-center relative z-10 text-gray-300 text-balance text-lg">
+                    Explore how we understand your unique challenges and provide tailored solutions to transform your laboratory operations.
+                  </p>
+                  <div className="flex justify-center relative z-10">
+                    <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90" onClick={() => navigate("/services")}>
+                      View All Services
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </TabsContent>
+          </Tabs>
         </div>
       </section>
 
