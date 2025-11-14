@@ -96,7 +96,7 @@ const Index = () => {
               </Button>
                 <Button size="lg" variant="outline" onClick={() => document.getElementById('services')?.scrollIntoView({
                 behavior: 'smooth'
-              })} className="border-white hover:bg-white text-slate-900">
+              })} className="border-white text-white hover:bg-white hover:text-slate-900">
                   Explore Services
                 </Button>
               </div>
