@@ -8,31 +8,31 @@ const Index = () => {
   const services = [{
     icon: TrendingUp,
     title: "Gap Analysis and Solutions Proposal",
-    description: "Comprehensive onsite gap analysis with staff interviews and detailed solutions proposal, including prioritized next steps and cost estimates."
+    description: "Streamline your lab operations with proven methodologies that enhance efficiency, reduce turnaround times, and improve patient outcomes."
   }, {
     icon: Award,
     title: "Workflow & Process Optimization",
-    description: "Ensure the right staff provides the right service at the right time through systemic solutions and optimization strategies with supporting documentation for sustainable reproducibility."
+    description: "Expert guidance through accreditation processes including CAP, CLIA, and ISO standards. Ensure compliance and maintain excellence."
   }, {
     icon: Users,
     title: "Comprehensive Grossing Staff Training",
-    description: "Comprehensive training for all grossing staff levels on all specimen types, including lectures, testing, documented progression with pathologist input, and competency assessments."
+    description: "Comprehensive training programs designed to elevate your team's skills and ensure consistent, high-quality performance."
   }, {
     icon: Cpu,
     title: "SOP Development & Continuous Improvement",
-    description: "Collaborate with staff and pathologists to develop site-specific standard operating procedures with high staff engagement, then support implementation through comprehensive change management strategies for all team levels."
+    description: "Seamlessly integrate cutting-edge laboratory information systems and automation solutions to modernize your operations."
   }, {
     icon: Microscope,
     title: "Provision of Casual Pathologists' Assistants",
-    description: "Pathology Solutions provides experienced, certified casual Pathologists' Assistants who adapt quickly to your site's protocols and systems, with optional pre-placement site visits to ensure seamless integration."
+    description: "Data-driven analysis and strategic recommendations to optimize every aspect of your laboratory's performance."
   }, {
     icon: ShieldCheck,
     title: "Expertise in Standardization of Practice",
-    description: "Optimize site diversity through best-practice standardization that enhances efficiency and reduces waste, while mediating between stakeholders to create practice guidelines that meet all members' needs."
+    description: "Comprehensive safety program development and regulatory compliance guidance to protect your staff and patients while meeting all industry standards."
   }, {
     icon: Settings,
     title: "Strategies to Enhance Staff Engagement",
-    description: "Support supervisors and leaders in fostering staff engagement throughout solution implementation to maintain a positive, productive work environment."
+    description: "Strategic equipment planning, maintenance programs, and utilization analysis to maximize ROI and ensure reliable laboratory operations."
   }];
   const faqs = [{
     question: "What is your consultation process?",
@@ -80,7 +80,7 @@ const Index = () => {
               <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl !text-[#b5c4c5] lg:text-6xl">
                 Transforming Pathology Lab Performance
               </h1>
-              <p className="mb-8 text-lg text-gray-300 md:text-xl">Elevates your entire pathology team to shared excellence through customized standardization, expert training, and flexible staffing—without compromising your site's unique needs.</p>
+              <p className="mb-8 text-lg text-gray-300 md:text-xl">Elevate your entire pathology team to shared excellence through customized standardization, expert training, and flexible staffing—without compromising your site's unique needs.</p>
               <div className="mb-8 flex flex-col items-center justify-center gap-4 sm:flex-row md:justify-start">
               <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary-dark" onClick={() => document.getElementById('contact')?.scrollIntoView({
                 behavior: 'smooth'
