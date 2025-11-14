@@ -78,11 +78,11 @@ const Index = () => {
         <div className="container relative z-10 mx-auto px-4 py-12 md:py-20">
           <div className="grid gap-8 md:grid-cols-2 md:items-center">
             {/* Left Column - Content */}
-            <div className="text-center md:text-left animate-fade-in">
-              <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl !text-[#b5c4c5] lg:text-6xl">
+            <div className="text-center md:text-left">
+              <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl !text-[#b5c4c5] lg:text-6xl animate-fade-in">
                 Transforming Pathology Lab Performance
               </h1>
-              <p className="mb-8 text-lg text-gray-300 md:text-xl font-bold">
+              <p className="mb-8 text-lg text-gray-300 md:text-xl font-bold animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
                 Elevate your entire pathology team to shared excellence through{" "}
                 <span className="bg-primary/30 px-1 rounded">customized standardization</span>,{" "}
                 <span className="bg-primary/30 px-1 rounded">expert training</span>, and{" "}
@@ -90,7 +90,7 @@ const Index = () => {
                 <br />
                 <span className="italic font-normal">—without compromising your site's unique needs.</span>
               </p>
-              <div className="mb-8 flex flex-col items-center justify-center gap-4 sm:flex-row md:justify-start">
+              <div className="mb-8 flex flex-col items-center justify-center gap-4 sm:flex-row md:justify-start animate-fade-in" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
               <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary-dark" onClick={() => document.getElementById('contact')?.scrollIntoView({
                 behavior: 'smooth'
               })}>
@@ -102,11 +102,11 @@ const Index = () => {
                   Explore Services
                 </Button>
               </div>
-              <p className="text-gray-400 text-lg">Trusted by pathology laboratories world-wide.</p>
+              <p className="text-gray-400 text-lg animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>Trusted by pathology laboratories world-wide.</p>
             </div>
             
             {/* Right Column - Image */}
-            <div className="relative animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
+            <div className="relative animate-fade-in" style={{ animationDelay: '0.8s', animationFillMode: 'both' }}>
               <img src={new URL('../assets/pathology-lab.jpg', import.meta.url).href} alt="Modern pathology laboratory with advanced equipment and professional environment" className="w-full h-auto rounded-lg shadow-2xl" />
             </div>
           </div>
