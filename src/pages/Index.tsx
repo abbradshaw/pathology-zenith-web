@@ -230,7 +230,7 @@ const Index = () => {
                 Explore All Our Services
               </h3>
               <p className="mb-6 text-base text-center relative z-10 text-gray-300">
-                Discover detailed information about each service and how we can help transform your laboratory
+                Explore how we understand your unique challenges and provide tailored solutions to transform your laboratory
                 operations.
               </p>
               <div className="flex justify-center relative z-10">
