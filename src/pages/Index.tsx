@@ -140,11 +140,11 @@ const Index = () => {
           </div>
 
           <Tabs defaultValue="health-authorities" className="w-full">
-            <TabsList className="grid w-full max-w-md mx-auto mb-12 grid-cols-2 bg-primary/10">
-              <TabsTrigger value="health-authorities" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
+            <TabsList className="grid w-full max-w-2xl mx-auto mb-12 grid-cols-2 bg-primary/10 h-16">
+              <TabsTrigger value="health-authorities" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground text-xl px-8 py-4">
                 For Health Authorities
               </TabsTrigger>
-              <TabsTrigger value="industry-partners" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
+              <TabsTrigger value="industry-partners" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground text-xl px-8 py-4">
                 For Industry Partners
               </TabsTrigger>
             </TabsList>
