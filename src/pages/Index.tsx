@@ -80,9 +80,7 @@ const Index = () => {
           <div className="grid gap-8 md:grid-cols-2 md:items-center">
             {/* Left Column - Content */}
             <div className="text-center md:text-left">
-              <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl !text-[#b5c4c5] lg:text-6xl animate-fade-in">
-                Transforming Pathology Lab Performance
-              </h1>
+              <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl !text-[#b5c4c5] lg:text-6xl animate-fade-in">Optimizing Anatomical Pathology Lab Performance</h1>
               <p className="mb-8 text-lg text-gray-300 md:text-xl font-bold animate-fade-in" style={{
               animationDelay: "0.2s",
               animationFillMode: "both"
