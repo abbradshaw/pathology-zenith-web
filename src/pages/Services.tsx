@@ -22,7 +22,7 @@ const Services = () => {
   }, {
     icon: Cpu,
     title: "SOP Development & Continuous Improvement",
-    description: "Seamlessly integrate cutting-edge laboratory information systems and automation solutions to modernize your operations."
+    description: "Collaborate with staff and pathologists to develop site-specific standard operating procedures with high staff engagement, then support implementation through comprehensive change management strategies for all team levels."
   }, {
     icon: Microscope,
     title: "Provision of Casual Pathologists' Assistants",
