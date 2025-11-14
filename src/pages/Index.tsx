@@ -12,7 +12,7 @@ const Index = () => {
   }, {
     icon: Award,
     title: "Workflow & Process Optimization",
-    description: "Expert guidance through accreditation processes including CAP, CLIA, and ISO standards. Ensure compliance and maintain excellence."
+    description: "Ensure the right staff provides the right service at the right time through systemic solutions and optimization strategies with supporting documentation for sustainable reproducibility."
   }, {
     icon: Users,
     title: "Comprehensive Grossing Staff Training",
