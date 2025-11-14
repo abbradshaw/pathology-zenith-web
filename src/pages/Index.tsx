@@ -130,15 +130,15 @@ const Index = () => {
               <div className="hero-gradient-stripe absolute opacity-60" style={{
                 width: "50px",
                 height: "150%",
-                top: "-12.5%",
-                left: "-1.5%",
+                top: "-25%",
+                left: "-3%",
                 transform: "rotate(-135deg)"
               }} />
               <div className="hero-gradient-stripe absolute opacity-60" style={{
                 width: "50px",
                 height: "150%",
-                bottom: "-12.5%",
-                right: "-1.5%",
+                bottom: "-25%",
+                right: "-3%",
                 transform: "rotate(-135deg)"
               }} />
               
