@@ -368,7 +368,7 @@ const Index = () => {
       <footer className="bg-hero py-8 text-center text-white">
         <div className="container mx-auto px-4">
           <p className="text-sm text-gray-400">
-            © {new Date().getFullYear()} Pathology Lab Consulting. All rights reserved.
+            © {new Date().getFullYear()} Pathology Solutions, Inc. All rights reserved.
           </p>
         </div>
       </footer>
