@@ -4,7 +4,10 @@ import ServiceCard from "@/components/ServiceCard";
 import ContactForm from "@/components/ContactForm";
 import Header from "@/components/Header";
 import { Microscope, Award, Users, Cpu, TrendingUp, Mail, Phone, MapPin, ShieldCheck, Settings } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 const Index = () => {
+  const navigate = useNavigate();
+  
   const services = [{
     icon: TrendingUp,
     title: "Gap Analysis and Solutions Proposal",
@@ -121,20 +124,22 @@ const Index = () => {
           
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {services.map((service, index) => <ServiceCard key={index} {...service} />)}
-          </div>
-          
-          <div className="mt-12 mx-auto max-w-2xl rounded-lg bg-primary/5 p-8">
-            <h3 className="mb-3 text-2xl font-semibold text-center">Ready to Transform Your Lab?</h3>
-            <p className="mb-6 text-base text-muted-foreground text-center">
-              Schedule a free consultation to discuss your laboratory's specific needs 
-              and discover how our tailored solutions can elevate your team's performance.
-            </p>
-            <div className="flex justify-center">
-              <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90" onClick={() => document.getElementById('contact')?.scrollIntoView({
-                behavior: 'smooth'
-              })}>
-                Book Free Consultation
-              </Button>
+            
+            {/* CTA Card spanning 8th and 9th positions */}
+            <div className="md:col-span-2 rounded-lg bg-primary/5 p-8 flex flex-col justify-center">
+              <h3 className="mb-3 text-2xl font-semibold text-center">Explore All Our Services</h3>
+              <p className="mb-6 text-base text-muted-foreground text-center">
+                Discover detailed information about each service and how we can help transform your laboratory operations.
+              </p>
+              <div className="flex justify-center">
+                <Button 
+                  size="lg" 
+                  className="bg-primary text-primary-foreground hover:bg-primary/90"
+                  onClick={() => navigate('/services')}
+                >
+                  View All Services
+                </Button>
+              </div>
             </div>
           </div>
         </div>
