@@ -16,7 +16,7 @@ const Index = () => {
   }, {
     icon: Users,
     title: "Comprehensive Grossing Staff Training",
-    description: "Comprehensive training programs designed to elevate your team's skills and ensure consistent, high-quality performance."
+    description: "Comprehensive training for all grossing staff levels on all specimen types, including lectures, testing, documented progression with pathologist input, and quarterly/annual competency assessments—all modeled on Canadian Certification Council standards while minimizing disruption to current operations."
   }, {
     icon: Cpu,
     title: "SOP Development & Continuous Improvement",
