@@ -45,7 +45,7 @@ const Header = () => {
                 <NavigationMenuItem>
                   <NavigationMenuLink
                     onClick={(e) => { e.preventDefault(); scrollToSection("#about"); }}
-                    className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-lg font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
+                    className="group inline-flex h-12 w-max items-center justify-center rounded-md bg-transparent px-6 py-3 text-xl font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
                   >
                     About
                   </NavigationMenuLink>
@@ -53,7 +53,7 @@ const Header = () => {
 
                 <NavigationMenuItem>
                   <NavigationMenuLink
-                    className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-lg font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
+                    className="group inline-flex h-12 w-max items-center justify-center rounded-md bg-transparent px-6 py-3 text-xl font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
                   >
                     Health Authorities
                   </NavigationMenuLink>
@@ -61,7 +61,7 @@ const Header = () => {
 
                 <NavigationMenuItem>
                   <NavigationMenuLink
-                    className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-lg font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
+                    className="group inline-flex h-12 w-max items-center justify-center rounded-md bg-transparent px-6 py-3 text-xl font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
                   >
                     Industry Partners
                   </NavigationMenuLink>
@@ -70,7 +70,7 @@ const Header = () => {
                 <NavigationMenuItem>
                   <NavigationMenuLink
                     onClick={(e) => { e.preventDefault(); scrollToSection("#contact"); }}
-                    className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-lg font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
+                    className="group inline-flex h-12 w-max items-center justify-center rounded-md bg-transparent px-6 py-3 text-xl font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
                   >
                     Contact
                   </NavigationMenuLink>
@@ -97,18 +97,18 @@ const Header = () => {
                 <a
                   href="#about"
                   onClick={(e) => { e.preventDefault(); scrollToSection("#about"); }}
-                  className="block px-4 py-2 text-lg rounded-md hover:bg-accent hover:text-accent-foreground"
+                  className="block px-4 py-3 text-xl rounded-md hover:bg-accent hover:text-accent-foreground"
                 >
                   About
                 </a>
               </li>
               <li>
-                <div className="px-4 py-2 text-lg font-medium">
+                <div className="px-4 py-3 text-xl font-medium">
                   Health Authorities
                 </div>
               </li>
               <li>
-                <div className="px-4 py-2 text-lg font-medium">
+                <div className="px-4 py-3 text-xl font-medium">
                   Industry Partners
                 </div>
               </li>
@@ -116,7 +116,7 @@ const Header = () => {
                 <a
                   href="#contact"
                   onClick={(e) => { e.preventDefault(); scrollToSection("#contact"); }}
-                  className="block px-4 py-2 text-lg rounded-md hover:bg-accent hover:text-accent-foreground"
+                  className="block px-4 py-3 text-xl rounded-md hover:bg-accent hover:text-accent-foreground"
                 >
                   Contact
                 </a>
