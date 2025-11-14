@@ -7,7 +7,6 @@ import { Microscope, Award, Users, Cpu, TrendingUp, Mail, Phone, MapPin, ShieldC
 import { useNavigate } from "react-router-dom";
 const Index = () => {
   const navigate = useNavigate();
-  
   const services = [{
     icon: TrendingUp,
     title: "Gap Analysis and Solutions Proposal",
@@ -132,11 +131,7 @@ const Index = () => {
                 Discover detailed information about each service and how we can help transform your laboratory operations.
               </p>
               <div className="flex justify-center">
-                <Button 
-                  size="lg" 
-                  className="bg-primary text-primary-foreground hover:bg-primary/90"
-                  onClick={() => navigate('/services')}
-                >
+                <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90" onClick={() => navigate('/services')}>
                   View All Services
                 </Button>
               </div>
@@ -261,22 +256,12 @@ pathology teams.</p>
                     <div>
                       <div className="font-medium">Email</div>
                       <a href="mailto:consultant@pathlabconsulting.com" className="text-muted-foreground hover:text-primary">
-                        consultant@pathlabconsulting.com
+                        info@pathologysolutions.ca
                       </a>
                     </div>
                   </div>
                   
-                  <div className="flex items-start gap-4">
-                    <div className="rounded-lg bg-primary/10 p-3">
-                      <Phone className="h-6 w-6 text-primary" />
-                    </div>
-                    <div>
-                      <div className="font-medium">Phone</div>
-                      <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary">
-                        +1 (234) 567-890
-                      </a>
-                    </div>
-                  </div>
+                  
                   
                   <div className="flex items-start gap-4">
                     <div className="rounded-lg bg-primary/10 p-3">
