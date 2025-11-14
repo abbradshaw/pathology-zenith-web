@@ -142,7 +142,7 @@ const Index = () => {
                 }}
               >
                 <Button
-                  size="lg"
+                  size="xl"
                   className="bg-primary text-primary-foreground hover:bg-primary-dark"
                   onClick={() =>
                     document.getElementById("contact")?.scrollIntoView({
@@ -153,7 +153,7 @@ const Index = () => {
                   Get Started
                 </Button>
                 <Button
-                  size="lg"
+                  size="xl"
                   variant="outline"
                   onClick={() =>
                     document.getElementById("services")?.scrollIntoView({
@@ -394,7 +394,7 @@ const Index = () => {
                 </ul>
 
                 <div className="mt-8">
-                  <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
+                  <Button size="xl" className="bg-primary text-primary-foreground hover:bg-primary/90">
                     Read More About Our Expertise
                   </Button>
                 </div>
