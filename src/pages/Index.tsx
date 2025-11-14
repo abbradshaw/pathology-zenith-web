@@ -25,7 +25,7 @@ const Index = () => {
       icon: Users,
       title: "Comprehensive Grossing Staff Training",
       description:
-        "Comprehensive training programs designed to elevate your team's skills and ensure consistent, high-quality performance.",
+        "Comprehensive training programs designed to elevate your team's skills and ensure consistent, high-quality performance. Biopsy Processing and Simple Dissection training are also provided.",
     },
     {
       icon: Cpu,
