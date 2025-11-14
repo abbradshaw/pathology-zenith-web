@@ -93,7 +93,7 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
   }
   
   html {
