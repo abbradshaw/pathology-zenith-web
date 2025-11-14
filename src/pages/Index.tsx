@@ -375,10 +375,19 @@ const Index = () => {
                   for over 17 years, earning three national awards for standardizing the Pathologists' Assistant
                   profession and advancing continuing education:
                 </p>
-                <ul>
-                  <li>Pathologists' Assistant Section Lloyd A. Kennedy Award (2014)</li>
-                  <li>Pathologists' Assistant Section Distinguished Service Award (2018)</li>
-                  <li>CAP-ACP President's Award (2019)</li>
+                <ul className="space-y-3 mt-4">
+                  <li className="flex items-start gap-3 p-3 rounded-lg bg-primary/10 border-l-4 border-primary">
+                    <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                    <span className="text-foreground font-medium">Pathologists' Assistant Section Lloyd A. Kennedy Award (2014)</span>
+                  </li>
+                  <li className="flex items-start gap-3 p-3 rounded-lg bg-primary/10 border-l-4 border-primary">
+                    <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                    <span className="text-foreground font-medium">Pathologists' Assistant Section Distinguished Service Award (2018)</span>
+                  </li>
+                  <li className="flex items-start gap-3 p-3 rounded-lg bg-primary/10 border-l-4 border-primary">
+                    <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                    <span className="text-foreground font-medium">CAP-ACP President's Award (2019)</span>
+                  </li>
                 </ul>
 
                 <div className="mt-8">
