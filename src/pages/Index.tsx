@@ -114,9 +114,9 @@ const Index = () => {
         />
 
         <div className="container relative z-10 mx-auto px-4 py-12 md:py-20">
-          <div className="grid gap-8 md:grid-cols-2 md:items-center">
+          <div className="grid gap-8 md:grid-cols-3 md:items-center">
             {/* Left Column - Content */}
-            <div className="text-center md:text-left">
+            <div className="text-center md:text-left md:col-span-2">
               <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl !text-[#b5c4c5] lg:text-6xl animate-fade-in">
                 Optimizing Anatomical Pathology Lab Performance
               </h1>
@@ -178,7 +178,7 @@ const Index = () => {
 
             {/* Right Column - Image */}
             <div
-              className="relative animate-fade-in"
+              className="relative animate-fade-in md:col-span-1"
               style={{
                 animationDelay: "0.8s",
                 animationFillMode: "both",
