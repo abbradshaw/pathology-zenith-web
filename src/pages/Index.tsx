@@ -165,15 +165,18 @@ const Index = () => {
                   Explore Services
                 </Button>
               </div>
-              <p
-                className="text-gray-400 text-lg animate-fade-in"
+              <div
+                className="flex items-start gap-3 p-3 rounded-lg bg-primary/10 border-l-4 border-primary max-w-lg mx-auto md:mx-0 animate-fade-in"
                 style={{
                   animationDelay: "0.6s",
                   animationFillMode: "both",
                 }}
               >
-                Trusted by pathology laboratories world-wide.
-              </p>
+                <ShieldCheck className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                <p className="text-foreground font-medium text-lg">
+                  Trusted by pathology laboratories world-wide.
+                </p>
+              </div>
             </div>
 
             {/* Right Column - Image */}
