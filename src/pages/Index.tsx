@@ -27,7 +27,7 @@ const Index = () => {
   }, {
     icon: Microscope,
     title: "Provision of Casual Pathologists' Assistants",
-    description: "Data-driven analysis and strategic recommendations to optimize every aspect of your laboratory's performance."
+    description: "Pathology Solutions provides experienced, certified casual Pathologists' Assistants who adapt quickly to your site's protocols and systems, with optional pre-placement site visits to ensure seamless integration."
   }, {
     icon: ShieldCheck,
     title: "Expertise in Standardization of Practice",
