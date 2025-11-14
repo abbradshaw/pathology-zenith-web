@@ -45,7 +45,7 @@ const Header = () => {
                 <NavigationMenuItem>
                   <NavigationMenuLink
                     onClick={(e) => { e.preventDefault(); scrollToSection("#about"); }}
-                    className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
+                    className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
                   >
                     About
                   </NavigationMenuLink>
@@ -75,7 +75,7 @@ const Header = () => {
                 <NavigationMenuItem>
                   <NavigationMenuLink
                     onClick={(e) => { e.preventDefault(); scrollToSection("#contact"); }}
-                    className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
+                    className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
                   >
                     Contact
                   </NavigationMenuLink>
