@@ -80,7 +80,14 @@ const Index = () => {
               <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl !text-[#b5c4c5] lg:text-6xl">
                 Transforming Pathology Lab Performance
               </h1>
-              <p className="mb-8 text-lg text-gray-300 md:text-xl">Elevate your entire pathology team to shared excellence through customized standardization, expert training, and flexible staffing—without compromising your site's unique needs.</p>
+              <p className="mb-8 text-lg text-gray-300 md:text-xl font-bold">
+                Elevate your entire pathology team to shared excellence through{" "}
+                <span className="bg-primary/30 px-1 rounded">customized standardization</span>,{" "}
+                <span className="bg-primary/30 px-1 rounded">expert training</span>, and{" "}
+                <span className="bg-primary/30 px-1 rounded">flexible staffing</span>.
+                <br />
+                <span className="italic font-normal">without compromising your site's unique needs</span>
+              </p>
               <div className="mb-8 flex flex-col items-center justify-center gap-4 sm:flex-row md:justify-start">
               <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary-dark" onClick={() => document.getElementById('contact')?.scrollIntoView({
                 behavior: 'smooth'
