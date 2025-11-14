@@ -125,12 +125,28 @@ const Index = () => {
             {services.map((service, index) => <ServiceCard key={index} {...service} className="animate-fade-in" style={{ animationDelay: `${0.1 * (index + 1)}s`, animationFillMode: 'both' }} />)}
             
             {/* CTA Card spanning 8th and 9th positions */}
-            <div className="md:col-span-2 rounded-lg bg-primary/5 p-8 flex flex-col justify-center animate-fade-in" style={{ animationDelay: '0.8s', animationFillMode: 'both' }}>
-              <h3 className="mb-3 text-2xl font-semibold text-center">Explore All Our Services</h3>
-              <p className="mb-6 text-base text-muted-foreground text-center">
+            <div className="md:col-span-2 rounded-lg bg-primary/5 p-8 flex flex-col justify-center animate-fade-in relative overflow-hidden" style={{ animationDelay: '0.8s', animationFillMode: 'both' }}>
+              {/* Diagonal Gradient Stripes */}
+              <div className="hero-gradient-stripe absolute opacity-60" style={{
+                width: "50px",
+                height: "150%",
+                top: "-25%",
+                left: "-3%",
+                transform: "rotate(-135deg)"
+              }} />
+              <div className="hero-gradient-stripe absolute opacity-60" style={{
+                width: "50px",
+                height: "150%",
+                bottom: "-25%",
+                right: "-3%",
+                transform: "rotate(-135deg)"
+              }} />
+              
+              <h3 className="mb-3 text-2xl font-semibold text-center relative z-10">Explore All Our Services</h3>
+              <p className="mb-6 text-base text-muted-foreground text-center relative z-10">
                 Discover detailed information about each service and how we can help transform your laboratory operations.
               </p>
-              <div className="flex justify-center">
+              <div className="flex justify-center relative z-10">
                 <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90" onClick={() => navigate('/services')}>
                   View All Services
                 </Button>
