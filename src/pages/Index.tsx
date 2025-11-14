@@ -249,9 +249,7 @@ const Index = () => {
                   process and procedure writing, standardization, training, and leading successful pathology teams.
                 </p>
                 <p>
-                  She has over 30 years of grossing and histology experience as a Pathologists’ Assistant, Pathologist
-                  Scientist, Medical Laboratory Technologist, Laboratory Histotechnician, and Medical Laboratory
-                  Assistant.
+                  She has over 30 years of grossing and histology experience as a Pathologists’ Assistant, Pathology Scientist, Medical Laboratory Technologist, Laboratory Histotechnician, and Medical Laboratory Assistant.
                 </p>
                 <div className="mt-8">
                   <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
