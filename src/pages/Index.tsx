@@ -85,7 +85,7 @@ const Index = () => {
               animationDelay: "0.2s",
               animationFillMode: "both"
             }}>
-                Elevate your entire pathology team to shared excellence through{" "}
+                Elevate your entire pathology team through{" "}
                 <span className="bg-primary/30 px-1 rounded">customized standardization</span>,{" "}
                 <span className="bg-primary/30 px-1 rounded">expert training</span>, and{" "}
                 <span className="bg-primary/30 px-1 rounded">flexible staffing</span>
