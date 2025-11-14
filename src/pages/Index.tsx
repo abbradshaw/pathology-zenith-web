@@ -100,7 +100,7 @@ const Index = () => {
                   Explore Services
                 </Button>
               </div>
-              <p className="text-sm text-gray-400">Trusted by pathology laboratories world-wide.</p>
+              <p className="text-gray-400 text-lg">Trusted by pathology laboratories world-wide.</p>
             </div>
             
             {/* Right Column - Image */}
