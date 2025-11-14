@@ -88,7 +88,7 @@ const Index = () => {
                 <span className="bg-primary/30 px-1 rounded">expert training</span>, and{" "}
                 <span className="bg-primary/30 px-1 rounded">flexible staffing</span>
                 <br />
-                <span className="italic font-normal">without compromising your site's unique needs.</span>
+                <span className="italic font-normal">—without compromising your site's unique needs.</span>
               </p>
               <div className="mb-8 flex flex-col items-center justify-center gap-4 sm:flex-row md:justify-start">
               <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary-dark" onClick={() => document.getElementById('contact')?.scrollIntoView({
