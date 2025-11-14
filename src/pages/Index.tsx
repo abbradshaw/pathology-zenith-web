@@ -78,7 +78,7 @@ const Index = () => {
         <div className="container relative z-10 mx-auto px-4 py-12 md:py-20">
           <div className="grid gap-8 md:grid-cols-2 md:items-center">
             {/* Left Column - Content */}
-            <div className="text-center md:text-left">
+            <div className="text-center md:text-left animate-fade-in">
               <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl !text-[#b5c4c5] lg:text-6xl">
                 Transforming Pathology Lab Performance
               </h1>
@@ -106,7 +106,7 @@ const Index = () => {
             </div>
             
             {/* Right Column - Image */}
-            <div className="relative">
+            <div className="relative animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
               <img src={new URL('../assets/pathology-lab.jpg', import.meta.url).href} alt="Modern pathology laboratory with advanced equipment and professional environment" className="w-full h-auto rounded-lg shadow-2xl" />
             </div>
           </div>
@@ -116,16 +116,16 @@ const Index = () => {
       {/* Services Section */}
       <section id="services" className="bg-background py-20 md:py-28">
         <div className="container mx-auto px-4">
-          <div className="mb-16 text-center">
+          <div className="mb-16 text-center animate-fade-in">
             <h2 className="mb-4 text-3xl font-bold md:text-4xl">Services Tailored to Every Site's Specific Needs</h2>
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground">We know that every gross room has unique challenges and dynamics that must be respected during change implementation.</p>
           </div>
           
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {services.map((service, index) => <ServiceCard key={index} {...service} />)}
+            {services.map((service, index) => <ServiceCard key={index} {...service} className="animate-fade-in" style={{ animationDelay: `${0.1 * (index + 1)}s`, animationFillMode: 'both' }} />)}
             
             {/* CTA Card spanning 8th and 9th positions */}
-            <div className="md:col-span-2 rounded-lg bg-primary/5 p-8 flex flex-col justify-center">
+            <div className="md:col-span-2 rounded-lg bg-primary/5 p-8 flex flex-col justify-center animate-fade-in" style={{ animationDelay: '0.8s', animationFillMode: 'both' }}>
               <h3 className="mb-3 text-2xl font-semibold text-center">Explore All Our Services</h3>
               <p className="mb-6 text-base text-muted-foreground text-center">
                 Discover detailed information about each service and how we can help transform your laboratory operations.
