@@ -250,6 +250,21 @@ const Index = () => {
                 </p>
                 <p>
                   She has over 30 years of grossing and histology experience as a Pathologists’ Assistant, Pathology Scientist, Medical Laboratory Technologist, Laboratory Histotechnician, and Medical Laboratory Assistant.
+
+
+
+Danielle has worked with the Canadian Association of Pathologists (CAP-ACP) as a Canadian PA leader for over 17 years, earning three national awards for standardizing the Pathologists' Assistant profession and advancing continuing education:
+
+Pathologists' Assistant Section Lloyd A. Kennedy Award (2014)
+Pathologists' Assistant Section Distinguished Service Award (2018)
+CAP-ACP President's Award (2019)
+
+
+
+
+
+
+
                 </p>
                 <div className="mt-8">
                   <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
