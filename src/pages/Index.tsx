@@ -122,6 +122,21 @@ const Index = () => {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {services.map((service, index) => <ServiceCard key={index} {...service} />)}
           </div>
+          
+          <div className="mt-12 mx-auto max-w-2xl rounded-lg bg-primary/5 p-8">
+            <h3 className="mb-3 text-2xl font-semibold text-center">Ready to Transform Your Lab?</h3>
+            <p className="mb-6 text-base text-muted-foreground text-center">
+              Schedule a free consultation to discuss your laboratory's specific needs 
+              and discover how our tailored solutions can elevate your team's performance.
+            </p>
+            <div className="flex justify-center">
+              <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90" onClick={() => document.getElementById('contact')?.scrollIntoView({
+                behavior: 'smooth'
+              })}>
+                Book Free Consultation
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
 
