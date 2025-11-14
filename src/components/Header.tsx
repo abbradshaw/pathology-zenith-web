@@ -45,37 +45,32 @@ const Header = () => {
                 <NavigationMenuItem>
                   <NavigationMenuLink
                     onClick={(e) => { e.preventDefault(); scrollToSection("#about"); }}
-                    className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
+                    className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-lg font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
                   >
                     About
                   </NavigationMenuLink>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger className="h-10 text-base font-medium">Services</NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-1 bg-popover">
-                      {serviceItems.map((item) => (
-                        <li key={item.title}>
-                          <NavigationMenuLink asChild>
-                            <a
-                              href={item.href}
-                              onClick={(e) => { e.preventDefault(); scrollToSection("#services"); }}
-                              className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                            >
-                              <div className="text-sm font-medium leading-none">{item.title}</div>
-                            </a>
-                          </NavigationMenuLink>
-                        </li>
-                      ))}
-                    </ul>
-                  </NavigationMenuContent>
+                  <NavigationMenuLink
+                    className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-lg font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
+                  >
+                    Health Authorities
+                  </NavigationMenuLink>
+                </NavigationMenuItem>
+
+                <NavigationMenuItem>
+                  <NavigationMenuLink
+                    className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-lg font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
+                  >
+                    Industry Partners
+                  </NavigationMenuLink>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
                   <NavigationMenuLink
                     onClick={(e) => { e.preventDefault(); scrollToSection("#contact"); }}
-                    className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
+                    className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-lg font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
                   >
                     Contact
                   </NavigationMenuLink>
@@ -102,32 +97,26 @@ const Header = () => {
                 <a
                   href="#about"
                   onClick={(e) => { e.preventDefault(); scrollToSection("#about"); }}
-                  className="block px-4 py-2 rounded-md hover:bg-accent hover:text-accent-foreground"
+                  className="block px-4 py-2 text-lg rounded-md hover:bg-accent hover:text-accent-foreground"
                 >
                   About
                 </a>
               </li>
               <li>
-                <div className="px-4 py-2 font-medium text-muted-foreground">Services</div>
-                <ul className="ml-4 space-y-1">
-                  {serviceItems.map((item) => (
-                    <li key={item.title}>
-                      <a
-                        href={item.href}
-                        onClick={(e) => { e.preventDefault(); scrollToSection("#services"); }}
-                        className="block px-4 py-2 text-sm rounded-md hover:bg-accent hover:text-accent-foreground"
-                      >
-                        {item.title}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+                <div className="px-4 py-2 text-lg font-medium">
+                  Health Authorities
+                </div>
+              </li>
+              <li>
+                <div className="px-4 py-2 text-lg font-medium">
+                  Industry Partners
+                </div>
               </li>
               <li>
                 <a
                   href="#contact"
                   onClick={(e) => { e.preventDefault(); scrollToSection("#contact"); }}
-                  className="block px-4 py-2 rounded-md hover:bg-accent hover:text-accent-foreground"
+                  className="block px-4 py-2 text-lg rounded-md hover:bg-accent hover:text-accent-foreground"
                 >
                   Contact
                 </a>
