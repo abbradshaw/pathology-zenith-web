@@ -118,7 +118,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-3xl font-bold md:text-4xl">Services Tailored to Every Site's Specific Needs</h2>
-            <p className="mx-auto max-w-2xl text-lg text-muted-foreground">We know that every gross room exhibits unique challenges and dynamics that must be honouored during any change process</p>
+            <p className="mx-auto max-w-2xl text-lg text-muted-foreground">We know that every gross room has unique challenges and dynamics that must be respected during change implementation.</p>
           </div>
           
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
