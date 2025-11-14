@@ -84,7 +84,7 @@ const Index = () => {
                 Elevate your entire pathology team to shared excellence through{" "}
                 <span className="bg-primary/30 px-1 rounded">customized standardization</span>,{" "}
                 <span className="bg-primary/30 px-1 rounded">expert training</span>, and{" "}
-                <span className="bg-primary/30 px-1 rounded">flexible staffing</span>.
+                <span className="bg-primary/30 px-1 rounded">flexible staffing</span>
                 <br />
                 <span className="italic font-normal">without compromising your site's unique needs</span>
               </p>
