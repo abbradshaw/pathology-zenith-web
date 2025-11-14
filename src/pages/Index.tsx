@@ -8,7 +8,7 @@ const Index = () => {
   const services = [{
     icon: TrendingUp,
     title: "Gap Analysis and Solutions Proposal",
-    description: "Comprehensive onsite gap analysis with staff interviews and detailed solutions proposal, including prioritized next steps and cost estimates"
+    description: "Comprehensive onsite gap analysis with staff interviews and detailed solutions proposal, including prioritized next steps and cost estimates."
   }, {
     icon: Award,
     title: "Workflow & Process Optimization",
