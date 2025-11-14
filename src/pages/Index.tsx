@@ -229,7 +229,7 @@ const Index = () => {
               <h3 className="mb-3 text-2xl font-semibold text-center relative z-10 !text-[#b5c4c5]">
                 Explore All Our Services
               </h3>
-              <p className="mb-6 text-base text-center relative z-10 text-gray-300">
+              <p className="mb-6 text-base text-center relative z-10 text-gray-300 text-balance">
                 Discover detailed information about each service and how we can help transform your laboratory
                 operations.
               </p>
