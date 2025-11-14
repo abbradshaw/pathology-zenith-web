@@ -125,7 +125,7 @@ const Index = () => {
             {services.map((service, index) => <ServiceCard key={index} {...service} className="animate-fade-in" style={{ animationDelay: `${0.1 * (index + 1)}s`, animationFillMode: 'both' }} />)}
             
             {/* CTA Card spanning 8th and 9th positions */}
-            <div className="md:col-span-2 rounded-lg bg-primary/5 p-8 flex flex-col justify-center animate-fade-in relative overflow-hidden" style={{ animationDelay: '0.8s', animationFillMode: 'both' }}>
+            <div className="md:col-span-2 rounded-lg bg-black p-8 flex flex-col justify-center animate-fade-in relative overflow-hidden" style={{ animationDelay: '0.8s', animationFillMode: 'both' }}>
               {/* Diagonal Gradient Stripes */}
               <div className="hero-gradient-stripe absolute opacity-60" style={{
                 width: "50px",
@@ -142,8 +142,8 @@ const Index = () => {
                 transform: "rotate(-135deg)"
               }} />
               
-              <h3 className="mb-3 text-2xl font-semibold text-center relative z-10">Explore All Our Services</h3>
-              <p className="mb-6 text-base text-muted-foreground text-center relative z-10">
+              <h3 className="mb-3 text-2xl font-semibold text-center relative z-10 !text-[#b5c4c5]">Explore All Our Services</h3>
+              <p className="mb-6 text-base text-center relative z-10 text-gray-300">
                 Discover detailed information about each service and how we can help transform your laboratory operations.
               </p>
               <div className="flex justify-center relative z-10">
