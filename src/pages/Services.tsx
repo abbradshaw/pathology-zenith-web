@@ -34,7 +34,7 @@ const Services = () => {
   }, {
     icon: Settings,
     title: "Strategies to Enhance Staff Engagement",
-    description: "Strategic equipment planning, maintenance programs, and utilization analysis to maximize ROI and ensure reliable laboratory operations."
+    description: "Support supervisors and leaders in fostering staff engagement throughout solution implementation to maintain a positive, productive work environment."
   }];
 
   return (
