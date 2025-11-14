@@ -30,7 +30,7 @@ const Services = () => {
   }, {
     icon: ShieldCheck,
     title: "Expertise in Standardization of Practice",
-    description: "Comprehensive safety program development and regulatory compliance guidance to protect your staff and patients while meeting all industry standards."
+    description: "Optimize site diversity through best-practice standardization that enhances efficiency and reduces waste, while mediating between stakeholders to create practice guidelines that meet all members' needs."
   }, {
     icon: Settings,
     title: "Strategies to Enhance Staff Engagement",
