@@ -178,6 +178,53 @@ const HealthAuthorities = () => {
           </div>
         </section>
 
+        {/* CTA Section */}
+        <section className="bg-background py-20 md:py-28">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <div className="rounded-lg bg-black p-12 flex flex-col items-center justify-center relative overflow-hidden">
+                {/* Diagonal Gradient Stripes */}
+                <div
+                  className="hero-gradient-stripe absolute opacity-60"
+                  style={{
+                    width: "50px",
+                    height: "150%",
+                    top: "-48%",
+                    left: "-4%",
+                    transform: "rotate(-135deg)",
+                  }}
+                />
+                <div
+                  className="hero-gradient-stripe absolute opacity-60"
+                  style={{
+                    width: "50px",
+                    height: "150%",
+                    bottom: "-48%",
+                    right: "-4%",
+                    transform: "rotate(-135deg)",
+                  }}
+                />
+
+                <h2 className="mb-4 text-center relative z-10 !text-[#b5c4c5] text-3xl md:text-4xl font-bold">
+                  Ready to Transform Your Anatomical Pathology Lab?
+                </h2>
+                <p className="mb-8 text-center relative z-10 text-gray-300 text-balance text-lg max-w-2xl">
+                  Discover how customized solutions can help your team work more efficiently.
+                </p>
+                <div className="flex justify-center relative z-10">
+                  <Button
+                    size="xl"
+                    className="bg-primary text-primary-foreground hover:bg-primary/90"
+                    onClick={() => window.location.href = '/contact'}
+                  >
+                    Get In Touch
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Contact Section */}
         <section className="bg-secondary py-20 md:py-28">
           <div className="container mx-auto px-4">
