@@ -435,66 +435,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact" className="bg-secondary py-20 md:py-28">
-        <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl">
-            <div className="mb-12 text-center">
-              <h2 className="mb-4 text-3xl font-bold md:text-4xl">Get in Touch</h2>
-              <p className="text-lg text-muted-foreground">
-                Ready to transform your laboratory? Schedule a consultation today.
-              </p>
-            </div>
-
-            <div className="grid gap-12 md:grid-cols-2">
-              <div>
-                <h3 className="mb-6 text-2xl font-semibold">Send a Message</h3>
-                <ContactForm />
-              </div>
-
-              <div>
-                <h3 className="mb-6 text-2xl font-semibold">Contact Information</h3>
-                <div className="space-y-6">
-                  <div className="flex items-start gap-4">
-                    <div className="rounded-lg bg-primary/10 p-3">
-                      <Mail className="h-6 w-6 text-primary" />
-                    </div>
-                    <div>
-                      <div className="font-medium">Email</div>
-                      <a
-                        href="mailto:consultant@pathlabconsulting.com"
-                        className="text-muted-foreground hover:text-primary"
-                      >
-                        info@pathologysolutions.ca
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4">
-                    <div className="rounded-lg bg-primary/10 p-3">
-                      <MapPin className="h-6 w-6 text-primary" />
-                    </div>
-                    <div>
-                      <div className="font-medium">Location</div>
-                      <div className="text-muted-foreground">Serving laboratories nationwide</div>
-                    </div>
-                  </div>
-
-                  <div className="mt-8 rounded-lg bg-primary/5 p-6">
-                    <h4 className="mb-2 font-semibold">Ready to get started?</h4>
-                    <p className="mb-4 text-sm text-muted-foreground">
-                      Schedule a free 30-minute consultation to discuss your laboratory's needs and how we can help you
-                      achieve your goals.
-                    </p>
-                    <Button className="w-full">Book Free Consultation</Button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="bg-hero py-8 text-center text-white">
         <div className="container mx-auto px-4">
