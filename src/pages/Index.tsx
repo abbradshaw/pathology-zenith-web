@@ -54,29 +54,54 @@ const Index = () => {
   ];
   const faqs = [
     {
-      question: "What is your consultation process?",
+      question: "What makes Pathology Solutions different from other pathology consulting services?",
       answer:
-        "Our consultation begins with a comprehensive assessment of your laboratory's current operations, workflows, and challenges. We then develop a customized action plan with clear milestones and deliverables, followed by hands-on implementation support and ongoing monitoring.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     },
     {
-      question: "How long does it take to see improvements?",
+      question: "How long does a typical gap analysis and implementation process take?",
       answer:
-        "While initial improvements can often be observed within 4-6 weeks, comprehensive transformation typically occurs over 3-6 months. The timeline varies based on the scope of changes and your laboratory's specific needs.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
     },
     {
-      question: "What are your pricing and engagement models?",
+      question: "Can you work with our existing staff, or do you require complete staffing changes?",
       answer:
-        "We offer flexible engagement models including project-based consulting, monthly retainers, and hourly consulting. Pricing is customized based on your laboratory's size, scope of work, and specific requirements. Contact us for a detailed proposal.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     },
     {
-      question: "Do you provide accreditation support?",
+      question: "What accreditation standards do your training programs meet?",
       answer:
-        "Yes, we have extensive experience supporting laboratories through various accreditation processes including CAP, CLIA, ISO 15189, and other regulatory requirements. We guide you through documentation, process implementation, and preparation for inspections.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
     },
     {
-      question: "What technology solutions do you recommend?",
+      question: "How do you ensure standardization without disrupting our site's unique workflow?",
       answer:
-        "Our recommendations are tailored to your specific needs, but we commonly work with leading LIS systems, middleware solutions, and automation platforms. We help you select, implement, and optimize technologies that align with your goals and budget.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    },
+    {
+      question: "Do your casual Pathologists' Assistants need extensive onboarding time?",
+      answer:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+    },
+    {
+      question: "What types and sizes of pathology labs do you work with?",
+      answer:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    },
+    {
+      question: "How do you measure the success of your training and competency programs?",
+      answer:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+    },
+    {
+      question: "Can you provide support for just one service (like training), or do we need a complete package?",
+      answer:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    },
+    {
+      question: "What is the typical cost structure for your services?",
+      answer:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
     },
   ];
   return (
