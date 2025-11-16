@@ -148,6 +148,28 @@ All colors MUST be HSL.
   .hero-gradient-stripe {
     background: linear-gradient(135deg, hsl(var(--hero-gradient-start)) 0%, hsl(var(--hero-gradient-end)) 100%);
   }
+  
+  .service-gradient-stripe-left {
+    background: linear-gradient(135deg, hsl(var(--hero-gradient-start)) 0%, hsl(var(--hero-gradient-end)) 100%);
+    position: absolute;
+    width: 100px;
+    height: 150%;
+    top: -50%;
+    left: -1%;
+    transform: rotate(-135deg);
+    opacity: 0.8;
+  }
+  
+  .service-gradient-stripe-right {
+    background: linear-gradient(135deg, hsl(var(--hero-gradient-start)) 0%, hsl(var(--hero-gradient-end)) 100%);
+    position: absolute;
+    width: 100px;
+    height: 150%;
+    bottom: -50%;
+    right: -1%;
+    transform: rotate(-135deg);
+    opacity: 0.8;
+  }
 }
 
 /* Ensure dropdown menus are not transparent */

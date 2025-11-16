@@ -62,26 +62,8 @@ const IndustryPartners = () => {
           }}
         >
           {/* Diagonal Gradient Stripes */}
-          <div
-            className="hero-gradient-stripe absolute opacity-80"
-            style={{
-              width: "100px",
-              height: "150%",
-              top: "-50%",
-              left: "-5%",
-              transform: "rotate(-135deg)",
-            }}
-          />
-          <div
-            className="hero-gradient-stripe absolute opacity-80"
-            style={{
-              width: "100px",
-              height: "150%",
-              bottom: "-50%",
-              right: "-5%",
-              transform: "rotate(-135deg)",
-            }}
-          />
+          <div className="service-gradient-stripe-left" />
+          <div className="service-gradient-stripe-right" />
 
           <div className="container relative z-10 mx-auto px-4 py-16 md:py-24">
             <div className="text-center max-w-4xl mx-auto">
