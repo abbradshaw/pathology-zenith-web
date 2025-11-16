@@ -173,9 +173,7 @@ const Index = () => {
                 }}
               >
                 <ShieldCheck className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                <p className="text-white font-medium text-lg">
-                  Trusted by pathology laboratories world-wide.
-                </p>
+                <p className="text-white font-medium text-lg">Trusted by pathology laboratories world-wide.</p>
               </div>
             </div>
 
@@ -381,11 +379,15 @@ const Index = () => {
                 <ul className="space-y-3 mt-4">
                   <li className="flex items-start gap-3 p-3 rounded-lg bg-primary/10 border-l-4 border-primary">
                     <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-foreground font-medium">Pathologists' Assistant Section Lloyd A. Kennedy Award (2014)</span>
+                    <span className="text-foreground font-medium">
+                      Pathologists' Assistant Section Lloyd A. Kennedy Award (2014)
+                    </span>
                   </li>
                   <li className="flex items-start gap-3 p-3 rounded-lg bg-primary/10 border-l-4 border-primary">
                     <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-foreground font-medium">Pathologists' Assistant Section Distinguished Service Award (2018)</span>
+                    <span className="text-foreground font-medium">
+                      Pathologists' Assistant Section Distinguished Service Award (2018)
+                    </span>
                   </li>
                   <li className="flex items-start gap-3 p-3 rounded-lg bg-primary/10 border-l-4 border-primary">
                     <Award className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
