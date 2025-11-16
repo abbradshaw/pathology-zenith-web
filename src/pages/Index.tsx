@@ -106,7 +106,7 @@ const Index = () => {
       {/* Hero Section */}
       <section
         id="hero"
-        className="relative overflow-hidden bg-hero text-white"
+        className="relative overflow-hidden bg-hero text-white pt-20"
         style={{
           minHeight: "65vh",
         }}
