@@ -105,7 +105,7 @@ const IndustryPartners = () => {
       <main className="min-h-screen">
         {/* Hero Section */}
         <section
-          className="relative overflow-hidden bg-hero text-white"
+          className="relative overflow-hidden bg-hero text-white pt-20"
           style={{
             minHeight: "50vh",
           }}
