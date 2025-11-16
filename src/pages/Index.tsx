@@ -98,7 +98,7 @@ const Index = () => {
             width: "100px",
             height: "150%",
             top: "-50%",
-            left: "-44px",
+            left: "-5%",
             transform: "rotate(-135deg)",
           }}
         />
