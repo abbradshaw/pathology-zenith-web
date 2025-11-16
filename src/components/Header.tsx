@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link, useLocation } from "react-router-dom";
 import logo from "@/assets/pathology-solutions-logo.svg";
 import {
   NavigationMenu,
@@ -12,6 +13,7 @@ import {
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const location = useLocation();
 
   const serviceItems = [
     { title: "Laboratory Workflow Optimization", href: "#workflow" },
@@ -22,11 +24,15 @@ const Header = () => {
   ];
 
   const scrollToSection = (href: string) => {
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setMobileMenuOpen(false);
+    if (location.pathname !== "/") {
+      window.location.href = "/" + href;
+    } else {
+      const element = document.querySelector(href);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
     }
+    setMobileMenuOpen(false);
   };
 
   return (
@@ -68,12 +74,13 @@ const Header = () => {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <NavigationMenuLink
-                    onClick={(e) => { e.preventDefault(); scrollToSection("#contact"); }}
-                    className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-lg font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
-                  >
-                    Contact
-                  </NavigationMenuLink>
+                  <Link to="/contact">
+                    <NavigationMenuLink
+                      className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-lg font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 cursor-pointer"
+                    >
+                      Contact
+                    </NavigationMenuLink>
+                  </Link>
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
@@ -113,13 +120,13 @@ const Header = () => {
                 </div>
               </li>
               <li>
-                <a
-                  href="#contact"
-                  onClick={(e) => { e.preventDefault(); scrollToSection("#contact"); }}
+                <Link 
+                  to="/contact"
+                  onClick={() => setMobileMenuOpen(false)}
                   className="block px-4 py-2 text-lg rounded-md hover:bg-accent hover:text-accent-foreground"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
