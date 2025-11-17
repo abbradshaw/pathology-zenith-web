@@ -95,7 +95,7 @@ const HealthAuthorities = () => {
     {
       question: "What is the typical cost structure for your services?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        "Pathology Solutions provides transparent, upfront pricing with clearly defined deliverables and benchmarks before each project begins. For health authorities with multiple sites, costs per site decrease as deliverables can be shared across locations, minimizing duplication of work.",
     },
   ];
 
