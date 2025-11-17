@@ -29,7 +29,7 @@ const IndustryPartners = () => {
       icon: Cpu,
       title: "SOP Development & Continuous Improvement",
       description:
-        "Collaborate with staff and pathologists to develop site-specific standard operating procedures with high staff engagement, then support implementation through comprehensive change management strategies for all team levels.",
+        "Collaborate with your staff and pathologists to create standard operating procedures tailored to your site's needs, ensuring team buy-in throughout development and supporting implementation with change management strategies across all levels.",
     },
     {
       icon: Microscope,
