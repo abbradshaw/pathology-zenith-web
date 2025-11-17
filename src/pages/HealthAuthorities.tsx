@@ -80,7 +80,7 @@ const HealthAuthorities = () => {
     {
       question: "What types and sizes of pathology labs do you work with?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Pathology Solutions works with medical laboratories of all types and sizes, from individual public labs and private industry to entire provincial health authorities and international universities.",
     },
     {
       question: "How do you measure the success of your training and competency programs?",
