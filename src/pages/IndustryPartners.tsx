@@ -60,7 +60,7 @@ const IndustryPartners = () => {
     {
       question: "Can you work with our existing staff, or do you require complete staffing changes?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Pathology Solutions typically trains existing staff to optimize internal resources whenever possible.",
     },
     {
       question: "What accreditation standards do your training programs meet?",
