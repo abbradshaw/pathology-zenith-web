@@ -90,7 +90,7 @@ const HealthAuthorities = () => {
     {
       question: "Can you provide support for just one service (like training), or do we need a complete package?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Pathology Solutions tailors services to each client's unique needs—you can select any combination of services or choose a single offering that best benefits your site.",
     },
     {
       question: "What is the typical cost structure for your services?",
