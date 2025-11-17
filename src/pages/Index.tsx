@@ -56,7 +56,7 @@ const Index = () => {
     {
       question: "How long does it take to complete a gap analysis and receive a solutions proposal?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        "Pathology Solutions completes a full gap analysis in approximately four weeks: one week onsite for assessment and up to three weeks offsite to prepare a comprehensive report with an attached solutions proposal, deliverables, and pricing.",
     },
     {
       question: "Can you work with our existing staff, or do you require complete staffing changes?",
