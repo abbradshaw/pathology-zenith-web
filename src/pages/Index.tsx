@@ -76,7 +76,7 @@ const Index = () => {
     {
       question: "Do your casual Pathologists' Assistants need extensive onboarding time?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        "Pathology Solutions' casual PAs bring experience from diverse lab settings and are adaptable, solutions-focused professionals who integrate quickly with minimal onboarding.",
     },
     {
       question: "What types and sizes of pathology labs do you work with?",
