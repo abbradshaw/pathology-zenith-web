@@ -70,7 +70,7 @@ const IndustryPartners = () => {
     {
       question: "How do you ensure standardization without disrupting our site's unique workflow?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Pathology Solutions minimizes workflow disruption by strategically sequencing training—for example, training MLA-equivalent staff on Pick and Transfer grossing before advancing MLT-equivalent staff to Simple Dissection grossing. All training is one-on-one and comprehensive.",
     },
     {
       question: "Do your casual Pathologists' Assistants need extensive onboarding time?",
