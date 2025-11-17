@@ -53,7 +53,7 @@ const IndustryPartners = () => {
 
   const faqs = [
     {
-      question: "How long does a typical gap analysis and implementation process take?",
+      question: "How long does it take to complete a gap analysis and receive a solutions proposal?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
     },
