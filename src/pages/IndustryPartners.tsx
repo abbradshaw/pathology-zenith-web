@@ -65,7 +65,7 @@ const IndustryPartners = () => {
     {
       question: "What accreditation standards do your training programs meet?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        "Pathology Solutions' training programs meet all accreditation standards, and trainees can become certified through the CCCPLS-CCCSLP upon passing the certification exam. While there is currently no stand-alone accreditation process specifically for gross training programs, our deliverables comply with all relevant accreditation body requirements.",
     },
     {
       question: "How do you ensure standardization without disrupting our site's unique workflow?",
