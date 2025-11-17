@@ -85,7 +85,7 @@ const IndustryPartners = () => {
     {
       question: "How do you measure the success of your training and competency programs?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        "Pathology Solutions maintains a 100% first-attempt pass rate for trainees on their certification exams—the highest success rate of any training program in Canada.",
     },
     {
       question: "Can you provide support for just one service (like training), or do we need a complete package?",
